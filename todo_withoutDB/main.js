@@ -8,6 +8,7 @@ addtodoButton.addEventListener('click',()=>{
     toDoContainer.appendChild(prargraph)
     inputField.value ="";
 
+    
     // |-------------------------- completed -----------------|
     prargraph.addEventListener('click',()=>{
         prargraph.style.textDecoration ="line-through";
