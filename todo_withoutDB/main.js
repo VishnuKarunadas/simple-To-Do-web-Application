@@ -8,15 +8,22 @@ addtodoButton.addEventListener('click',()=>{
     toDoContainer.appendChild(prargraph)
     inputField.value ="";
 
-    
-    // |-------------------------- completed -----------------|
+
+    // |-------------------------- completed --------------------|
     prargraph.addEventListener('click',()=>{
         prargraph.style.textDecoration ="line-through";
     });
 
-     // |-------------------------- remove -----------------|
+     //|-------------------------- remove -----------------------|
      prargraph.addEventListener('dblclick',()=>{
         toDoContainer.removeChild(prargraph);
     });
+
+    function fun(){
+        console.log("hiii");
+        
+    }
+
+    fun();
 
 })
